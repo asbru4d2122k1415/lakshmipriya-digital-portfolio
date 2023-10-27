@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+  <title>College Application</title>
+    
+<link rel="stylesheet" type="text/css"
+ href="styles.css">
+
+</head>
+
+<body>
+ 
+   <header>
+     
+   <h1>College Application Form</h1>
+
+    </header>
+  
+  <form action="submit.php" method="post">
+     
+   <section>
+    
+        <h2>Personal Information</h2>
+      
+      <label for="full-name">Full 
+Name:</label>
+      
+      <input type="text" id="full-name" name="full-name" required>
+
+   
+         <label for="email">Email:</label>
+            
+<input type="email" id="email" name="email" required>
+
+           
+ <!-- Add more personal information fields here -->
+    
+    </section>
+
+     
+   <section>
+      
+      <h2>Academic Information</h2>
+      
+      <label for="gpa">GPA:</label>
+        
+    <input type="number" id="gpa" name="gpa" step="0.01" required>
+
+       
+     <label for="sat-scores">SAT Scores:</label>
+       
+     <input type="text" id="sat-scores" name="sat-scores">
+
+   
+         <!-- Add more academic information fields here -->
+  
+      </section>
+
+     
+   <!-- Add more sections for essays, recommendations, etc. -->
+
+   
+     <button type="submit">Submit Application</button>
+  
+  </form>
+
+   
+ <footer>
+
+        <p>&copy; 2023 College Application</p>
+ 
+   </footer>
+
+</body>
+
+</html>
